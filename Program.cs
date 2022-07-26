@@ -13,6 +13,7 @@
             hash.Add("4", "to");
             hash.Add("5", "be");
 
+            //ablity to Get
             string hash2 = hash.Get("5");
             Console.WriteLine(hash2);
 
