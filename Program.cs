@@ -13,9 +13,12 @@
             hash.Add("4", "to");
             hash.Add("5", "be");
 
-            //ablity to Get
-            string hash2 = hash.Get("5");
-            Console.WriteLine(hash2);
+            string hash3 = hash.Get("3");
+            Console.WriteLine(hash3);
+
+            hash.Remove("3");
+
+            
 
 
         }
